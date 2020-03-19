@@ -1,0 +1,33 @@
+{
+  "name": "@planaria/react-planaria",
+  "version": "0.0.3",
+  "description": "",
+  "main": "dist/dist.js",
+  "bin": {
+    "rp": "bin/cli.js"
+  },
+  "scripts": {
+    "prepublish": "rm -rf ./dist && npm run build",
+    "build": "webpack"
+  },
+  "author": "Planaria Corp",
+  "dependencies": {
+    "can-ndjson-stream": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-regenerator": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
