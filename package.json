@@ -1,6 +1,6 @@
 {
   "name": "@planaria/react-planaria",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/dist.js",
   "bin": {
@@ -12,6 +12,8 @@
   },
   "author": "Planaria Corp",
   "dependencies": {
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
     "can-ndjson-stream": "^1.0.2"
   },
   "devDependencies": {
@@ -22,9 +24,7 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "commander": "^5.0.0",
-    "inquirer": "^7.1.0"
+    "react-dom": "^16.13.0"
   },
   "peerDependencies": {
     "react": "^16.13.0",
